@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: hologram_lines
-  m_Shader: {fileID: 4800000, guid: 2bffc50af4b1ff34cb151aa15bb9edb4, type: 3}
+  m_Name: ReflectionProbe-0
+  m_Shader: {fileID: 103, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,14 +23,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1a41c3e209ba51c4fbb25b4d4613c183, type: 3}
-        m_Scale: {x: 0.5, y: 0.2}
+    - _Tex:
+        m_Texture: {fileID: 8900000, guid: c142d76881c29474abb3e38b3fd19c00, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FresnelPower: 3
+    - _Exposure: 1
+    - _Rotation: 0
     m_Colors:
-    - _Color: {r: 0, g: 1.9595503, b: 1.9876463, a: 1}
-    - _ScrollDirection: {r: 0, g: 0.05, b: 0, a: 0}
+    - _Tint: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
   m_BuildTextureStacks: []
